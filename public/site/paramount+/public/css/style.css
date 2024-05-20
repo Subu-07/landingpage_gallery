@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "Proxima Nova Balck";
+  src: url("../../assets/fonts/Proxima\ Nova\ Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../../assets/fonts/Proxima\ Nova\ Alt\ Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: url("../../assets/img/background_tablet.jpg");
+  background-color: #0a1d61;
+  background-position: 50%;
+  background-size: 100%;
+  color: #fff;
+  margin: 0;
+}
+#hero {
+  margin-top: 72px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.hero_logo_container {
+  margin-bottom: 40px;
+  width: 220px;
+}
+.hero_m_text_container {
+  font-family: Proxima Nova Balck;
+  /* font-size: 10vw; */
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0  .03em;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  /* line-height: 9; */
+  width: 832px;
+}
+.hero_m_text_container > div {
+  /* margin: 0.2em 0 0; */
+}
+.hero_sub_text_container {
+  width: 630px;
+  font-family: Proxima Nova Regular;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 44px;
+}
+.email_grid {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.email_grid2 {
+  width: 631px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.role_line {
+  border-bottom: 1px solid #8d9096;
+  margin: 27px 0;
+  opacity: 0.4;
+}
+.info_text {
+  font-family: Proxima Nova Regular;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+.form_contant {
+  margin-bottom: 44px;
+  width: 631px;
+}
+.grid_subwrapper {
+  display: grid;
+  grid-gap: 6px 10px;
+  grid-template-columns: 2fr 1fr;
+  width: 631px;
+  margin-bottom: 44px;
+}
+.form_group > input {
+  background-color: #fff;
+  border: none;
+  color: #999;
+  padding: 13px;
+  width: 93%;
+  min-height: 14px;
+  line-height: 19px;
+  margin-top: 2px;
+}
+.form_group > button {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, #0445e7, #3170ee);
+  border-image: linear-gradient(270deg, #0445e7, #3170ee);
+  color: #fff;
+  display: inline-block;
+  font-family: Proxima Nova Regular, sans-serif;
+  letter-spacing: 0.4px;
+  padding: 16px 40px 14px;
+  position: relative;
+
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+
+  border-style: inset;
+  border-width: 0;
+  cursor: pointer;
+  line-height: 19px;
+  min-height: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+}
+.info_subtext {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: Proxima Nova Regular;
+  line-height: 16px;
+  margin-bottom: 68px;
+  width: 100%;
+}
+.info_subtext p {
+  margin-bottom: 22px;
+}
+.footer {
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+  padding-left: 72px;
+  padding-right: 72px;
+
+  bottom: 0;
+  color: #fff;
+  font-family: Proxima Nova Regular;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+
+  max-width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
